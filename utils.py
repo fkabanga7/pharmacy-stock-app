@@ -1,8 +1,8 @@
 import pandas as pd
 
 def load_data():
-    stock_path = "/Users/FabriceDiamant/Downloads/pharmacy_stock_app/data/pharmacy_stock.xlsx"
-    log_path = "/Users/FabriceDiamant/Downloads/pharmacy_stock_app/data/stock_log.xlsx"
+    stock_path = "data/pharmacy_stock.xlsx"
+    log_path = "data/stock_log.xlsx"
 
     try:
         stock_df = pd.read_excel(stock_path)
